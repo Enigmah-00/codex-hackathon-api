@@ -34,6 +34,9 @@ This solution utilizes a **100% Deterministic, High-Efficiency Algorithmic Archi
     
 -   **Multilingual Routing:** Features a custom heuristic detection engine for Romanized Bangla (Banglish). Whether the user types in native Bengali script or Banglish (e.g., "amar taka kete nise"), the system translates the intent and outputs the `customer_reply` in pristine, professional Bengali script.
     
+## AI Usage
+
+We didn't used any LLM API, this is 100% deterministic rule based
 
 ## 🛡️ Safety Logic (Fintech Guardrails)
 
