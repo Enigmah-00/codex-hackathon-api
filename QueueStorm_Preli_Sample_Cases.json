@@ -1,0 +1,16 @@
+{
+  "ticket_id": "TC-001",
+  "customer_id": "CUST-9921",
+  "language": "Bangla",
+  "detected_intent": "Failed Transaction / Deducted Balance",
+  "is_duplicate": false,
+  "security_flags": {
+    "contains_sensitive_data": false,
+    "scrubbed_keywords": []
+  },
+  "customer_reply": "আপনার অ্যাকাউন্ট থেকে ৫০০ টাকা কেটে নেওয়া হয়েছে। আপনার অভিযোগটি সফলভাবে নথিভুক্ত করা হয়েছে। যেকোনো যোগ্য পরিমাণ অফিসিয়াল চ্যানেলের মাধ্যমে প্রক্রিয়াকরণ করা হবে।",
+  "metadata": {
+    "processing_latency_ms": 0.85,
+    "architecture_used": "Deterministic Rule Engine"
+  }
+}
