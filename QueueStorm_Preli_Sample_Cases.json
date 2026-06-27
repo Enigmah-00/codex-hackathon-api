@@ -1,16 +1,16 @@
 {
-  "ticket_id": "TC-001",
-  "customer_id": "CUST-9921",
-  "language": "Bangla",
-  "detected_intent": "Failed Transaction / Deducted Balance",
-  "is_duplicate": false,
-  "security_flags": {
-    "contains_sensitive_data": false,
-    "scrubbed_keywords": []
-  },
-  "customer_reply": "আপনার অ্যাকাউন্ট থেকে ৫০০ টাকা কেটে নেওয়া হয়েছে। আপনার অভিযোগটি সফলভাবে নথিভুক্ত করা হয়েছে। যেকোনো যোগ্য পরিমাণ অফিসিয়াল চ্যানেলের মাধ্যমে প্রক্রিয়াকরণ করা হবে।",
-  "metadata": {
-    "processing_latency_ms": 0.85,
-    "architecture_used": "Deterministic Rule Engine"
-  }
+    "ticket_id": "TKT-001",
+    "relevant_transaction_id": null,
+    "evidence_verdict": "insufficient_data",
+    "case_type": "phishing_or_social_engineering",
+    "severity": "critical",
+    "department": "fraud_risk",
+    "agent_summary": "গ্রাহক phishing_or_social_engineering সংক্রান্ত সমস্যা রিপোর্ট করেছেন। আইডি ভেরিফিকেশন স্ট্যাটাস: insufficient_data।",
+    "recommended_next_action": "তদন্তের জন্য কেসটি fraud_risk বিভাগে পাঠানো হয়েছে। কোনো রিফান্ড সরাসরি নিশ্চিত করবেন পশ্চাৎ।",
+    "customer_reply": "সতর্ক থাকার জন্য ধন্যবাদ। আমরা কখনোই আপনার পিন, ওটিপি বা পাসওয়ার্ড জানতে চাই না। প্রতারকদের এড়িয়ে চলুন।",
+    "human_review_required": true,
+    "confidence": 1.0,
+    "reason_codes": [
+        "rule_engine_finalized"
+    ]
 }
